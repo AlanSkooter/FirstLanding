@@ -9,7 +9,7 @@ const user = {
   };
 
   if (user.isDriver == true) {
-    console.log(`Привет, меня зовут ${user.name} ${user.surname}, мне ${user.age} лет, я живу в городе ${user.city}, я водитель`);
+    console.log(`Привет, меня зовут ${user.name} ${user.surname}, мне ${user.age} лет, я живу в городе ${user.city}, я вожу автомобиль`);
   } else {
     console.log(`Привет, меня зовут ${user.name} ${user.surname}, мне ${user.age} лет, я живу в городе ${user.city}, я не езжу за рулем`);
   }
